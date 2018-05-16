@@ -3,3 +3,11 @@ $(document).ready(function(){
         $(this).hide();
     });
 });
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
