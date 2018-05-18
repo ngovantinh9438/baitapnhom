@@ -15,11 +15,7 @@ header{
 }
 
 li{
-	width: 128px;
-}
-
-.webmail{
-	width: 140px;
+	width: cover;
 }
 
 .headered{
@@ -28,7 +24,7 @@ li{
 }
 
 .logo{
-	width: 180px;
+	width: cover;
 	height: 70px;
 }
 
@@ -37,11 +33,19 @@ li{
 }		
 
 .my-nav{
-	height: 39px;
+	height: cover;
 	margin-top: 15px;
 	list-style-type: none;
 	
 	
+}
+
+.li-menu{
+	height: cover;
+	width: cover;
+	display: inline-block;
+	color: #f1f1f1;
+	line-height: 39px;
 }
 
 .search{
@@ -73,7 +77,6 @@ li{
 	color: #337AB7;
 	text-decoration: none;
 	background: #fff;
-  	
 }
 
 .icon-menu-down{
@@ -86,40 +89,19 @@ li{
 	margin: 8px 10px;
 }
 
-.li-menu{
-	height: 39px;
-	width: 121px;
-	display: inline-block;
-	color: #f1f1f1;
-	line-height: 39px;
-}
 
-.div-menu-left{
-	width: 239.39px;
-	text-align: left;
+.div-menu-left-right{
+	width: cover;
 	margin-top: 70px;
 }
 
 .div-logo{
-	width: 182.39px;
-	text-align: center;
-	padding-left: 0px;
+	width: cover;
 	margin-top: 40px;
 }
 
-.div-menu-right{
-	width: 239.39px;
-	text-align: right;
-	margin-top: 70px;
-}
-
-.div-menu-left .leaf{
-	width: 239.39px;
-	height: 30.8px;
-}
-
-.div-menu-right .leaf{
-	width: 209.39px;
+.div-menu-left-right .leaf{
+	width:100%;
 	height: 30.8px;
 }
 
