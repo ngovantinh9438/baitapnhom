@@ -1,16 +1,10 @@
-*{
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
-}
-
 body{
 	padding: 0px;
 	margin: auto;
 }
 
 header{
-	height: 146px;
+	height: auto;
 	background-color: #002A5C;
 }
 
@@ -19,13 +13,13 @@ li{
 }
 
 .headered{
-	height: 67px;
+	height: auto;
 	margin: 15px 0px;
 }
 
 .logo{
 	width: cover;
-	height: 70px;
+	height: 76px;
 }
 
 .my-menu>li>a:hover{
@@ -36,8 +30,36 @@ li{
 	height: cover;
 	margin-top: 15px;
 	list-style-type: none;
-	
-	
+}	
+
+.forceHov{
+	margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.forceHov li{
+	margin: 3px 0px 0px -4px;
+    padding: 5px 0px;
+    list-style-type: none;
+    text-align: center;
+    width: 16.72%;
+    border-right: 2px solid #002a5c;
+    background-color: #001e42;
+}
+
+.forceHov li:hover{
+	background-color: #33a7de;
+}
+
+.forceHov li a{
+	color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    height: 35px;
 }
 
 .li-menu{
@@ -118,12 +140,12 @@ li{
 
 .section-menu{
 	background-color:  #002A5C;
-	height: 397px;
+	height: auto;
 }
 
 .section-footer{
 	background-color: #001228;
-	height: 200px;
+	height: auto;
 }
 
 .ul-footer{
@@ -141,6 +163,7 @@ li{
 .uot-s1827{
 	text-align: center;
 	color: #fff;
+	margin-bottom: 50px;
 }
 
 .div-footer{
@@ -287,7 +310,7 @@ ul li a i{
     top: 65%;
     left: 3%;
     background: #fff;
-	height: 168.72px;
+	height: auto;
 	text-align: left;
     width: 60%;
     padding: 2% 3%;
@@ -311,7 +334,6 @@ ul li a i{
 	height: 610px;
 	margin-top: 0px;
 	margin-left:-15px;
-	
 	position: relative;
 }
 
