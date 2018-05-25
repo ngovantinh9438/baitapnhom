@@ -284,8 +284,8 @@ ul li a i{
 
 .div-title-wrap{
 	display: block;
-	width: 600px;
-	height: 100px;
+	width: 45%;
+	height: auto;
     position: absolute;
     z-index: 1;
     top: 70%;
@@ -297,7 +297,7 @@ ul li a i{
 }
 
 .my-container{
-	width: 100%;
+	padding: 0px 90px 0px 90px;
 	height: 937px;
 	background-color: #96A3A3;
 	text-align: center;
@@ -319,27 +319,20 @@ ul li a i{
 }
 
 .world-branding-sticky{
-	width: 1170px;
-	height: 176px;
+	width: cover;
+	height: auto;
 	background-color: #fff;
 	padding: 30px 0px;
 	margin-top: 60px;
-	margin-left:-15px;
 	border-top-left-radius: 2px;
 	border-top-right-radius: 2px;
-}
-
-.article-image-wrap{
-	width: 1170px;
-	height: 610px;
-	margin-top: 0px;
-	margin-left:-15px;
-	position: relative;
 }
 
 .story-image img{
 	border-bottom-left-radius: 2px;
 	border-bottom-right-radius: 2px;
+	margin: 0px 0px 0px 0px;
+	position: relative;
 }
 
 .feature-tag{
@@ -356,7 +349,7 @@ ul li a i{
     font-size: 16px;
     font-weight: 200;
     font-family: 'Open Sans',sans-serif;
-	}
+}
 
 .article-from{
 	text-transform: uppercase;
@@ -412,12 +405,4 @@ ul li a i{
 .world-bottom a:hover{
 	text-decoration: none;
 	color:#363636;
-}
-
-.top-row{
-	margin-left: 90px;
-}
-
-.bottom-row{
-	margin-left: 90px;
 }
